@@ -1,0 +1,40 @@
+<jaxb:bindings version="1.0" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc"
+	xmlns:inheritance="http://jaxb2-commons.dev.java.net/basic/inheritance"
+	jaxb:extensionBindingPrefixes="xjc inheritance">
+
+	<jaxb:bindings schemaLocation="schemas/csndc/EOP/GMLProduct/eop/1.1/eop.xsd"
+		node="/xs:schema">
+		<jaxb:schemaBindings>
+			<jaxb:package name="eu.europa.emsa.csndc.eop"/>
+		</jaxb:schemaBindings>
+	</jaxb:bindings>
+
+    <jaxb:bindings schemaLocation="schemas/csndc/EOP/GMLProduct/eop/1.1/opt.xsd"
+		node="/xs:schema">
+		<jaxb:schemaBindings>
+			<jaxb:package name="eu.europa.emsa.csndc.opt"/>
+		</jaxb:schemaBindings>
+	</jaxb:bindings>
+
+    <jaxb:bindings schemaLocation="schemas/csndc/EOP/GMLProduct/eop/1.1/sar.xsd"
+		node="/xs:schema">
+		<jaxb:schemaBindings>
+			<jaxb:package name="eu.europa.emsa.csndc.sar" />
+		</jaxb:schemaBindings>
+	</jaxb:bindings>
+
+    <jaxb:bindings
+		schemaLocation="schemas/csndc/EOP/GMLProduct/gml/3.1.1/base/gmlSubset.xsd"
+		node="/xs:schema">
+		<jaxb:schemaBindings>
+        	<jaxb:package name="eu.europa.emsa.csndc.gmlSubset" />
+        </jaxb:schemaBindings>
+
+		<jaxb:bindings node="xs:element[@name='_Curve']">
+			<jaxb:factoryMethod name="ACurveElement"/>
+    	</jaxb:bindings>
+    </jaxb:bindings>
+
+</jaxb:bindings>

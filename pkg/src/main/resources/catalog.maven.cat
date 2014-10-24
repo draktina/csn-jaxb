@@ -1,0 +1,4 @@
+REWRITE_SYSTEM "http://schemas.opengis.net/gml/3.1.1" "maven:org.jvnet.ogc:gml-v_3_1_1-schema:jar::!/gml/3.1.1"
+REWRITE_SYSTEM "http://schemas.opengis.net/xlink/1.0.0" "maven:org.jvnet.ogc:gml-v_3_1_1-schema:jar::!/xlink/1.0.0"
+REWRITE_SYSTEM "http://schemas.opengis.net/ows/1.1.0" "maven:org.jvnet.ogc:ows-v_1_1_0-schema:jar::!/ows/1.1.0"
+REWRITE_SYSTEM "http://schemas.opengis.net/xml" "maven:org.jvnet.ogc:ows-v_1_1_0-schema:jar::!/xml"

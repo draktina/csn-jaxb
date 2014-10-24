@@ -1,0 +1,1266 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings if-exists="true" version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.6 generiert 
+Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
+Generiert: 2013.01.30 um 11:49:39 PM CET 
+
+  -->
+  <bindings if-exists="true" scd="x-schema::tns"  xmlns:tns="http://www.w3.org/2001/SMIL20/Language">
+    <schemaBindings map="false">
+      <package name="org.w3.smil.v_2_0.language"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="~tns:animateMotionType">
+      <class ref="org.w3.smil.v_2_0.language.AnimateMotionType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:animateType">
+      <class ref="org.w3.smil.v_2_0.language.AnimateType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:animateColorType">
+      <class ref="org.w3.smil.v_2_0.language.AnimateColorType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:setType">
+      <class ref="org.w3.smil.v_2_0.language.SetType"/>
+    </bindings>
+  </bindings>
+  <bindings if-exists="true" scd="x-schema::tns"  xmlns:tns="http://www.opengis.net/gml">
+    <schemaBindings map="false">
+      <package name="net.opengis.gml.v_3_1_1.ignore"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="~tns:AbstractGriddedSurfaceType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractGriddedSurfaceType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TinType">
+      <class ref="net.opengis.gml.v_3_1_1.TinType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ClothoidType">
+      <class ref="net.opengis.gml.v_3_1_1.ClothoidType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:FeaturePropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.FeaturePropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:OperationParameterType">
+      <class ref="net.opengis.gml.v_3_1_1.OperationParameterType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractGeneralOperationParameterType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractGeneralOperationParameterType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DefinitionType">
+      <class ref="net.opengis.gml.v_3_1_1.DefinitionType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractGMLType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractGMLType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ArcType">
+      <class ref="net.opengis.gml.v_3_1_1.ArcType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ArcStringType">
+      <class ref="net.opengis.gml.v_3_1_1.ArcStringType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractCurveSegmentType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractCurveSegmentType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CodeType">
+      <class ref="net.opengis.gml.v_3_1_1.CodeType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CoordType">
+      <class ref="net.opengis.gml.v_3_1_1.CoordType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SurfaceType">
+      <class ref="net.opengis.gml.v_3_1_1.SurfaceType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractSurfaceType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractSurfaceType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractGeometricPrimitiveType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractGeometricPrimitiveType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractGeometryType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractGeometryType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:PointType">
+      <class ref="net.opengis.gml.v_3_1_1.PointType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:IsolatedPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.IsolatedPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ValuePropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.ValuePropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ConversionToPreferredUnitType">
+      <class ref="net.opengis.gml.v_3_1_1.ConversionToPreferredUnitType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ConversionRefType">
+      <class ref="net.opengis.gml.v_3_1_1.ConversionRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:EdgeType">
+      <class ref="net.opengis.gml.v_3_1_1.EdgeType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractTopoPrimitiveType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractTopoPrimitiveType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractTopologyType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractTopologyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:PolarCSRefType">
+      <class ref="net.opengis.gml.v_3_1_1.PolarCSRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GeographicCRSType">
+      <class ref="net.opengis.gml.v_3_1_1.GeographicCRSType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractReferenceSystemType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractReferenceSystemType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:NodeType">
+      <class ref="net.opengis.gml.v_3_1_1.NodeType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:PassThroughOperationType">
+      <class ref="net.opengis.gml.v_3_1_1.PassThroughOperationType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractCoordinateOperationType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractCoordinateOperationType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:VerticalDatumType">
+      <class ref="net.opengis.gml.v_3_1_1.VerticalDatumType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractDatumType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractDatumType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:EllipsoidRefType">
+      <class ref="net.opengis.gml.v_3_1_1.EllipsoidRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DatumRefType">
+      <class ref="net.opengis.gml.v_3_1_1.DatumRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CoordinateReferenceSystemRefType">
+      <class ref="net.opengis.gml.v_3_1_1.CoordinateReferenceSystemRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:RelativeInternalPositionalAccuracyType">
+      <class ref="net.opengis.gml.v_3_1_1.RelativeInternalPositionalAccuracyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractPositionalAccuracyType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractPositionalAccuracyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:PointPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.PointPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:RingType">
+      <class ref="net.opengis.gml.v_3_1_1.RingType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractRingType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractRingType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TopoVolumePropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.TopoVolumePropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DirectedEdgePropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.DirectedEdgePropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CoordinateSystemAxisType">
+      <class ref="net.opengis.gml.v_3_1_1.CoordinateSystemAxisType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DerivedCRSTypeType">
+      <class ref="net.opengis.gml.v_3_1_1.DerivedCRSTypeType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DerivedUnitType">
+      <class ref="net.opengis.gml.v_3_1_1.DerivedUnitType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:UnitDefinitionType">
+      <class ref="net.opengis.gml.v_3_1_1.UnitDefinitionType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DMSAngleType">
+      <class ref="net.opengis.gml.v_3_1_1.DMSAngleType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SurfacePropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.SurfacePropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AssociationType">
+      <class ref="net.opengis.gml.v_3_1_1.AssociationType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:OrientableSurfaceType">
+      <class ref="net.opengis.gml.v_3_1_1.OrientableSurfaceType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:MultiSurfacePropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.MultiSurfacePropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SolidPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.SolidPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GeodesicType">
+      <class ref="net.opengis.gml.v_3_1_1.GeodesicType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GeodesicStringType">
+      <class ref="net.opengis.gml.v_3_1_1.GeodesicStringType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:HistoryPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.HistoryPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:VerticalDatumTypeType">
+      <class ref="net.opengis.gml.v_3_1_1.VerticalDatumTypeType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:PolygonType">
+      <class ref="net.opengis.gml.v_3_1_1.PolygonType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:RectangleType">
+      <class ref="net.opengis.gml.v_3_1_1.RectangleType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractSurfacePatchType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractSurfacePatchType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DerivationUnitTermType">
+      <class ref="net.opengis.gml.v_3_1_1.DerivationUnitTermType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractDiscreteCoverageType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractDiscreteCoverageType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractCoverageType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractCoverageType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractFeatureType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractFeatureType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ObliqueCartesianCSType">
+      <class ref="net.opengis.gml.v_3_1_1.ObliqueCartesianCSType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractCoordinateSystemType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractCoordinateSystemType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CompositeSurfaceType">
+      <class ref="net.opengis.gml.v_3_1_1.CompositeSurfaceType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:OperationRefType">
+      <class ref="net.opengis.gml.v_3_1_1.OperationRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TriangulatedSurfaceType">
+      <class ref="net.opengis.gml.v_3_1_1.TriangulatedSurfaceType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TimePeriodType">
+      <class ref="net.opengis.gml.v_3_1_1.TimePeriodType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:QuantityExtentType">
+      <class ref="net.opengis.gml.v_3_1_1.QuantityExtentType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:LineStringSegmentType">
+      <class ref="net.opengis.gml.v_3_1_1.LineStringSegmentType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:FeatureStyleType">
+      <class ref="net.opengis.gml.v_3_1_1.FeatureStyleType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:IndexMapType">
+      <class ref="net.opengis.gml.v_3_1_1.IndexMapType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GridFunctionType">
+      <class ref="net.opengis.gml.v_3_1_1.GridFunctionType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ConventionalUnitType">
+      <class ref="net.opengis.gml.v_3_1_1.ConventionalUnitType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SurfaceArrayPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.SurfaceArrayPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:VerticalCSType">
+      <class ref="net.opengis.gml.v_3_1_1.VerticalCSType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GeometricComplexType">
+      <class ref="net.opengis.gml.v_3_1_1.GeometricComplexType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:StringOrRefType">
+      <class ref="net.opengis.gml.v_3_1_1.StringOrRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:VerticalCSRefType">
+      <class ref="net.opengis.gml.v_3_1_1.VerticalCSRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SolidArrayPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.SolidArrayPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CircleType">
+      <class ref="net.opengis.gml.v_3_1_1.CircleType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CurvePropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.CurvePropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractParametricCurveSurfaceType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractParametricCurveSurfaceType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:PrimeMeridianType">
+      <class ref="net.opengis.gml.v_3_1_1.PrimeMeridianType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:MultiSolidCoverageType">
+      <class ref="net.opengis.gml.v_3_1_1.MultiSolidCoverageType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractTimeReferenceSystemType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractTimeReferenceSystemType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractRingPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractRingPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TopoComplexMemberType">
+      <class ref="net.opengis.gml.v_3_1_1.TopoComplexMemberType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CoverageFunctionType">
+      <class ref="net.opengis.gml.v_3_1_1.CoverageFunctionType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:IdentifierType">
+      <class ref="net.opengis.gml.v_3_1_1.IdentifierType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:PassThroughOperationRefType">
+      <class ref="net.opengis.gml.v_3_1_1.PassThroughOperationRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CoordinateSystemAxisRefType">
+      <class ref="net.opengis.gml.v_3_1_1.CoordinateSystemAxisRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TimePrimitivePropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.TimePrimitivePropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GridCoverageType">
+      <class ref="net.opengis.gml.v_3_1_1.GridCoverageType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GraphStyleType">
+      <class ref="net.opengis.gml.v_3_1_1.GraphStyleType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:FeatureStylePropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.FeatureStylePropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:MultiPolygonType">
+      <class ref="net.opengis.gml.v_3_1_1.MultiPolygonType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractGeometricAggregateType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractGeometricAggregateType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:RangeParametersType">
+      <class ref="net.opengis.gml.v_3_1_1.RangeParametersType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:MeasureType">
+      <class ref="net.opengis.gml.v_3_1_1.MeasureType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TemporalCRSType">
+      <class ref="net.opengis.gml.v_3_1_1.TemporalCRSType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CategoryExtentType">
+      <class ref="net.opengis.gml.v_3_1_1.CategoryExtentType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:PolyhedralSurfaceType">
+      <class ref="net.opengis.gml.v_3_1_1.PolyhedralSurfaceType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:RectifiedGridDomainType">
+      <class ref="net.opengis.gml.v_3_1_1.RectifiedGridDomainType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DomainSetType">
+      <class ref="net.opengis.gml.v_3_1_1.DomainSetType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:RangeSetType">
+      <class ref="net.opengis.gml.v_3_1_1.RangeSetType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ArrayAssociationType">
+      <class ref="net.opengis.gml.v_3_1_1.ArrayAssociationType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:EnvelopeType">
+      <class ref="net.opengis.gml.v_3_1_1.EnvelopeType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:PolygonPatchType">
+      <class ref="net.opengis.gml.v_3_1_1.PolygonPatchType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AffinePlacementType">
+      <class ref="net.opengis.gml.v_3_1_1.AffinePlacementType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:MeasureOrNullListType">
+      <class ref="net.opengis.gml.v_3_1_1.MeasureOrNullListType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TemporalDatumRefType">
+      <class ref="net.opengis.gml.v_3_1_1.TemporalDatumRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ConcatenatedOperationRefType">
+      <class ref="net.opengis.gml.v_3_1_1.ConcatenatedOperationRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TrianglePatchArrayPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.TrianglePatchArrayPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SurfacePatchArrayPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.SurfacePatchArrayPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TransformationType">
+      <class ref="net.opengis.gml.v_3_1_1.TransformationType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractGeneralTransformationType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractGeneralTransformationType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TimeClockType">
+      <class ref="net.opengis.gml.v_3_1_1.TimeClockType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:LineStringPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.LineStringPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:LinearCSType">
+      <class ref="net.opengis.gml.v_3_1_1.LinearCSType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:LabelStylePropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.LabelStylePropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:MultiPointPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.MultiPointPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TriangleType">
+      <class ref="net.opengis.gml.v_3_1_1.TriangleType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TopoSolidType">
+      <class ref="net.opengis.gml.v_3_1_1.TopoSolidType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GeocentricCRSRefType">
+      <class ref="net.opengis.gml.v_3_1_1.GeocentricCRSRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SphericalCSType">
+      <class ref="net.opengis.gml.v_3_1_1.SphericalCSType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SingleOperationRefType">
+      <class ref="net.opengis.gml.v_3_1_1.SingleOperationRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DictionaryEntryType">
+      <class ref="net.opengis.gml.v_3_1_1.DictionaryEntryType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CovarianceMatrixType">
+      <class ref="net.opengis.gml.v_3_1_1.CovarianceMatrixType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ImageCRSType">
+      <class ref="net.opengis.gml.v_3_1_1.ImageCRSType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CoordinateSystemRefType">
+      <class ref="net.opengis.gml.v_3_1_1.CoordinateSystemRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:EllipsoidalCSRefType">
+      <class ref="net.opengis.gml.v_3_1_1.EllipsoidalCSRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SecondDefiningParameterType">
+      <class ref="net.opengis.gml.v_3_1_1.SecondDefiningParameterType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GeometryArrayPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.GeometryArrayPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:LinearCSRefType">
+      <class ref="net.opengis.gml.v_3_1_1.LinearCSRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DirectedObservationAtDistanceType">
+      <class ref="net.opengis.gml.v_3_1_1.DirectedObservationAtDistanceType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DirectedObservationType">
+      <class ref="net.opengis.gml.v_3_1_1.DirectedObservationType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ObservationType">
+      <class ref="net.opengis.gml.v_3_1_1.ObservationType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:IndirectEntryType">
+      <class ref="net.opengis.gml.v_3_1_1.IndirectEntryType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:BezierType">
+      <class ref="net.opengis.gml.v_3_1_1.BezierType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:BSplineType">
+      <class ref="net.opengis.gml.v_3_1_1.BSplineType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractTimeTopologyPrimitiveType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractTimeTopologyPrimitiveType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractTimePrimitiveType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractTimePrimitiveType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractTimeObjectType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractTimeObjectType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:OperationParameterRefType">
+      <class ref="net.opengis.gml.v_3_1_1.OperationParameterRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CurveSegmentArrayPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.CurveSegmentArrayPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TargetPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.TargetPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CylinderType">
+      <class ref="net.opengis.gml.v_3_1_1.CylinderType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:VerticalCRSType">
+      <class ref="net.opengis.gml.v_3_1_1.VerticalCRSType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TimeInstantType">
+      <class ref="net.opengis.gml.v_3_1_1.TimeInstantType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractTimeGeometricPrimitiveType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractTimeGeometricPrimitiveType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GridType">
+      <class ref="net.opengis.gml.v_3_1_1.GridType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ValueArrayPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.ValueArrayPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:LabelStyleType">
+      <class ref="net.opengis.gml.v_3_1_1.LabelStyleType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:OperationMethodRefType">
+      <class ref="net.opengis.gml.v_3_1_1.OperationMethodRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:FeatureCollectionType">
+      <class ref="net.opengis.gml.v_3_1_1.FeatureCollectionType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:LocationPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.LocationPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TemporalCSRefType">
+      <class ref="net.opengis.gml.v_3_1_1.TemporalCSRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:MultiCurveDomainType">
+      <class ref="net.opengis.gml.v_3_1_1.MultiCurveDomainType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SphericalCSRefType">
+      <class ref="net.opengis.gml.v_3_1_1.SphericalCSRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CoordinateOperationRefType">
+      <class ref="net.opengis.gml.v_3_1_1.CoordinateOperationRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:RectifiedGridCoverageType">
+      <class ref="net.opengis.gml.v_3_1_1.RectifiedGridCoverageType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ObliqueCartesianCSRefType">
+      <class ref="net.opengis.gml.v_3_1_1.ObliqueCartesianCSRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TimeCalendarType">
+      <class ref="net.opengis.gml.v_3_1_1.TimeCalendarType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:RectifiedGridType">
+      <class ref="net.opengis.gml.v_3_1_1.RectifiedGridType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractGeneralOperationParameterRefType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractGeneralOperationParameterRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:MultiGeometryPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.MultiGeometryPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CoordinatesType">
+      <class ref="net.opengis.gml.v_3_1_1.CoordinatesType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:MeasureListType">
+      <class ref="net.opengis.gml.v_3_1_1.MeasureListType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:PrimeMeridianRefType">
+      <class ref="net.opengis.gml.v_3_1_1.PrimeMeridianRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CRSRefType">
+      <class ref="net.opengis.gml.v_3_1_1.CRSRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TopoPointPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.TopoPointPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ConversionType">
+      <class ref="net.opengis.gml.v_3_1_1.ConversionType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractGeneralConversionType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractGeneralConversionType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:BagType">
+      <class ref="net.opengis.gml.v_3_1_1.BagType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CovarianceElementType">
+      <class ref="net.opengis.gml.v_3_1_1.CovarianceElementType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TimeCalendarEraType">
+      <class ref="net.opengis.gml.v_3_1_1.TimeCalendarEraType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:OffsetCurveType">
+      <class ref="net.opengis.gml.v_3_1_1.OffsetCurveType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GeographicCRSRefType">
+      <class ref="net.opengis.gml.v_3_1_1.GeographicCRSRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:PointArrayPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.PointArrayPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:EngineeringDatumRefType">
+      <class ref="net.opengis.gml.v_3_1_1.EngineeringDatumRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractGeneralDerivedCRSType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractGeneralDerivedCRSType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:MultiCurveType">
+      <class ref="net.opengis.gml.v_3_1_1.MultiCurveType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DirectionVectorType">
+      <class ref="net.opengis.gml.v_3_1_1.DirectionVectorType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractMetaDataType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractMetaDataType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:EngineeringCRSType">
+      <class ref="net.opengis.gml.v_3_1_1.EngineeringCRSType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:PriorityLocationPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.PriorityLocationPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DirectedFacePropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.DirectedFacePropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:EllipsoidalCSType">
+      <class ref="net.opengis.gml.v_3_1_1.EllipsoidalCSType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CurveArrayPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.CurveArrayPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GeocentricCRSType">
+      <class ref="net.opengis.gml.v_3_1_1.GeocentricCRSType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CartesianCSType">
+      <class ref="net.opengis.gml.v_3_1_1.CartesianCSType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ArrayType">
+      <class ref="net.opengis.gml.v_3_1_1.ArrayType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DirectPositionType">
+      <class ref="net.opengis.gml.v_3_1_1.DirectPositionType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GridDomainType">
+      <class ref="net.opengis.gml.v_3_1_1.GridDomainType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractStyleType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractStyleType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ParameterValueType">
+      <class ref="net.opengis.gml.v_3_1_1.ParameterValueType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GenericMetaDataType">
+      <class ref="net.opengis.gml.v_3_1_1.GenericMetaDataType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CodeOrNullListType">
+      <class ref="net.opengis.gml.v_3_1_1.CodeOrNullListType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractCurveType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractCurveType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TopologyStyleType">
+      <class ref="net.opengis.gml.v_3_1_1.TopologyStyleType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ProjectedCRSRefType">
+      <class ref="net.opengis.gml.v_3_1_1.ProjectedCRSRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TimeNodeType">
+      <class ref="net.opengis.gml.v_3_1_1.TimeNodeType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CurveType">
+      <class ref="net.opengis.gml.v_3_1_1.CurveType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:MultiCurvePropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.MultiCurvePropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:VerticalCRSRefType">
+      <class ref="net.opengis.gml.v_3_1_1.VerticalCRSRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TimeCoordinateSystemType">
+      <class ref="net.opengis.gml.v_3_1_1.TimeCoordinateSystemType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GeometryPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.GeometryPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TopoCurveType">
+      <class ref="net.opengis.gml.v_3_1_1.TopoCurveType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DerivedCRSType">
+      <class ref="net.opengis.gml.v_3_1_1.DerivedCRSType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AngleChoiceType">
+      <class ref="net.opengis.gml.v_3_1_1.AngleChoiceType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CubicSplineType">
+      <class ref="net.opengis.gml.v_3_1_1.CubicSplineType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TemporalCRSRefType">
+      <class ref="net.opengis.gml.v_3_1_1.TemporalCRSRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractGeneralParameterValueType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractGeneralParameterValueType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TopoPrimitiveArrayAssociationType">
+      <class ref="net.opengis.gml.v_3_1_1.TopoPrimitiveArrayAssociationType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ProjectedCRSType">
+      <class ref="net.opengis.gml.v_3_1_1.ProjectedCRSType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:MultiSurfaceType">
+      <class ref="net.opengis.gml.v_3_1_1.MultiSurfaceType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:PolygonPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.PolygonPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TimeOrdinalEraType">
+      <class ref="net.opengis.gml.v_3_1_1.TimeOrdinalEraType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DefinitionProxyType">
+      <class ref="net.opengis.gml.v_3_1_1.DefinitionProxyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:EngineeringCRSRefType">
+      <class ref="net.opengis.gml.v_3_1_1.EngineeringCRSRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GeometryStyleType">
+      <class ref="net.opengis.gml.v_3_1_1.GeometryStyleType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:FaceType">
+      <class ref="net.opengis.gml.v_3_1_1.FaceType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TopoCurvePropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.TopoCurvePropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ReferenceType">
+      <class ref="net.opengis.gml.v_3_1_1.ReferenceType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:MultiSolidPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.MultiSolidPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:LinearRingType">
+      <class ref="net.opengis.gml.v_3_1_1.LinearRingType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DictionaryType">
+      <class ref="net.opengis.gml.v_3_1_1.DictionaryType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CylindricalCSType">
+      <class ref="net.opengis.gml.v_3_1_1.CylindricalCSType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:UnitOfMeasureType">
+      <class ref="net.opengis.gml.v_3_1_1.UnitOfMeasureType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ExtentType">
+      <class ref="net.opengis.gml.v_3_1_1.ExtentType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:MultiLineStringType">
+      <class ref="net.opengis.gml.v_3_1_1.MultiLineStringType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CartesianCSRefType">
+      <class ref="net.opengis.gml.v_3_1_1.CartesianCSRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractFeatureCollectionType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractFeatureCollectionType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SolidType">
+      <class ref="net.opengis.gml.v_3_1_1.SolidType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractSolidType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractSolidType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:MultiCurveCoverageType">
+      <class ref="net.opengis.gml.v_3_1_1.MultiCurveCoverageType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:VerticalDatumRefType">
+      <class ref="net.opengis.gml.v_3_1_1.VerticalDatumRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:OrientableCurveType">
+      <class ref="net.opengis.gml.v_3_1_1.OrientableCurveType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbsoluteExternalPositionalAccuracyType">
+      <class ref="net.opengis.gml.v_3_1_1.AbsoluteExternalPositionalAccuracyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:PolygonPatchArrayPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.PolygonPatchArrayPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:MultiGeometryType">
+      <class ref="net.opengis.gml.v_3_1_1.MultiGeometryType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TopoComplexType">
+      <class ref="net.opengis.gml.v_3_1_1.TopoComplexType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractContinuousCoverageType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractContinuousCoverageType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DirectPositionListType">
+      <class ref="net.opengis.gml.v_3_1_1.DirectPositionListType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:MetaDataPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.MetaDataPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TimeIntervalLengthType">
+      <class ref="net.opengis.gml.v_3_1_1.TimeIntervalLengthType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TopologyStylePropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.TopologyStylePropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TimeTopologyComplexType">
+      <class ref="net.opengis.gml.v_3_1_1.TimeTopologyComplexType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractTimeComplexType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractTimeComplexType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TrackType">
+      <class ref="net.opengis.gml.v_3_1_1.TrackType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ArcByCenterPointType">
+      <class ref="net.opengis.gml.v_3_1_1.ArcByCenterPointType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:MultiSolidDomainType">
+      <class ref="net.opengis.gml.v_3_1_1.MultiSolidDomainType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:MultiSolidType">
+      <class ref="net.opengis.gml.v_3_1_1.MultiSolidType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:EngineeringDatumType">
+      <class ref="net.opengis.gml.v_3_1_1.EngineeringDatumType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TimePositionType">
+      <class ref="net.opengis.gml.v_3_1_1.TimePositionType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CompositeValueType">
+      <class ref="net.opengis.gml.v_3_1_1.CompositeValueType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ReferenceSystemRefType">
+      <class ref="net.opengis.gml.v_3_1_1.ReferenceSystemRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ImageDatumType">
+      <class ref="net.opengis.gml.v_3_1_1.ImageDatumType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TopoSurfaceType">
+      <class ref="net.opengis.gml.v_3_1_1.TopoSurfaceType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GeometryStylePropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.GeometryStylePropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ImageDatumRefType">
+      <class ref="net.opengis.gml.v_3_1_1.ImageDatumRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ConeType">
+      <class ref="net.opengis.gml.v_3_1_1.ConeType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:MultiPointCoverageType">
+      <class ref="net.opengis.gml.v_3_1_1.MultiPointCoverageType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractTimeSliceType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractTimeSliceType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:MovingObjectStatusType">
+      <class ref="net.opengis.gml.v_3_1_1.MovingObjectStatusType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:EllipsoidType">
+      <class ref="net.opengis.gml.v_3_1_1.EllipsoidType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ArcStringByBulgeType">
+      <class ref="net.opengis.gml.v_3_1_1.ArcStringByBulgeType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TransformationRefType">
+      <class ref="net.opengis.gml.v_3_1_1.TransformationRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TemporalDatumType">
+      <class ref="net.opengis.gml.v_3_1_1.TemporalDatumType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TimeEdgeType">
+      <class ref="net.opengis.gml.v_3_1_1.TimeEdgeType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ContainerPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.ContainerPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:PixelInCellType">
+      <class ref="net.opengis.gml.v_3_1_1.PixelInCellType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DirectedTopoSolidPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.DirectedTopoSolidPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DefaultStylePropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.DefaultStylePropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TemporalCSType">
+      <class ref="net.opengis.gml.v_3_1_1.TemporalCSType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ValueArrayType">
+      <class ref="net.opengis.gml.v_3_1_1.ValueArrayType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:UserDefinedCSType">
+      <class ref="net.opengis.gml.v_3_1_1.UserDefinedCSType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CylindricalCSRefType">
+      <class ref="net.opengis.gml.v_3_1_1.CylindricalCSRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:UserDefinedCSRefType">
+      <class ref="net.opengis.gml.v_3_1_1.UserDefinedCSRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GeneralTransformationRefType">
+      <class ref="net.opengis.gml.v_3_1_1.GeneralTransformationRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GeodeticDatumRefType">
+      <class ref="net.opengis.gml.v_3_1_1.GeodeticDatumRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CompositeSolidType">
+      <class ref="net.opengis.gml.v_3_1_1.CompositeSolidType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TimeOrdinalReferenceSystemType">
+      <class ref="net.opengis.gml.v_3_1_1.TimeOrdinalReferenceSystemType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:LineStringType">
+      <class ref="net.opengis.gml.v_3_1_1.LineStringType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TopoSurfacePropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.TopoSurfacePropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ParameterValueGroupType">
+      <class ref="net.opengis.gml.v_3_1_1.ParameterValueGroupType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:BaseUnitType">
+      <class ref="net.opengis.gml.v_3_1_1.BaseUnitType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:FeatureArrayPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.FeatureArrayPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DerivedCRSRefType">
+      <class ref="net.opengis.gml.v_3_1_1.DerivedCRSRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:StyleType">
+      <class ref="net.opengis.gml.v_3_1_1.StyleType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:MultiPointDomainType">
+      <class ref="net.opengis.gml.v_3_1_1.MultiPointDomainType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GeneralConversionRefType">
+      <class ref="net.opengis.gml.v_3_1_1.GeneralConversionRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ConcatenatedOperationType">
+      <class ref="net.opengis.gml.v_3_1_1.ConcatenatedOperationType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CircleByCenterPointType">
+      <class ref="net.opengis.gml.v_3_1_1.CircleByCenterPointType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SphereType">
+      <class ref="net.opengis.gml.v_3_1_1.SphereType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TopoPointType">
+      <class ref="net.opengis.gml.v_3_1_1.TopoPointType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SymbolType">
+      <class ref="net.opengis.gml.v_3_1_1.SymbolType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GeodeticDatumType">
+      <class ref="net.opengis.gml.v_3_1_1.GeodeticDatumType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:MultiSurfaceDomainType">
+      <class ref="net.opengis.gml.v_3_1_1.MultiSurfaceDomainType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:OperationParameterGroupType">
+      <class ref="net.opengis.gml.v_3_1_1.OperationParameterGroupType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GraphStylePropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.GraphStylePropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:BoundingShapeType">
+      <class ref="net.opengis.gml.v_3_1_1.BoundingShapeType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CompositeCurveType">
+      <class ref="net.opengis.gml.v_3_1_1.CompositeCurveType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:OperationMethodType">
+      <class ref="net.opengis.gml.v_3_1_1.OperationMethodType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DirectionPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.DirectionPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:VectorType">
+      <class ref="net.opengis.gml.v_3_1_1.VectorType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CompoundCRSType">
+      <class ref="net.opengis.gml.v_3_1_1.CompoundCRSType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DirectedNodePropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.DirectedNodePropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TopoPrimitiveMemberType">
+      <class ref="net.opengis.gml.v_3_1_1.TopoPrimitiveMemberType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:MultiPointType">
+      <class ref="net.opengis.gml.v_3_1_1.MultiPointType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:MultiSurfaceCoverageType">
+      <class ref="net.opengis.gml.v_3_1_1.MultiSurfaceCoverageType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DataBlockType">
+      <class ref="net.opengis.gml.v_3_1_1.DataBlockType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:FileType">
+      <class ref="net.opengis.gml.v_3_1_1.FileType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ImageCRSRefType">
+      <class ref="net.opengis.gml.v_3_1_1.ImageCRSRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DegreesType">
+      <class ref="net.opengis.gml.v_3_1_1.DegreesType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:EnvelopeWithTimePeriodType">
+      <class ref="net.opengis.gml.v_3_1_1.EnvelopeWithTimePeriodType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:PolarCSType">
+      <class ref="net.opengis.gml.v_3_1_1.PolarCSType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ArcByBulgeType">
+      <class ref="net.opengis.gml.v_3_1_1.ArcByBulgeType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TopoVolumeType">
+      <class ref="net.opengis.gml.v_3_1_1.TopoVolumeType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:OperationParameterGroupRefType">
+      <class ref="net.opengis.gml.v_3_1_1.OperationParameterGroupRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CompoundCRSRefType">
+      <class ref="net.opengis.gml.v_3_1_1.CompoundCRSRefType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:BaseStyleDescriptorType">
+      <class ref="net.opengis.gml.v_3_1_1.BaseStyleDescriptorType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CompositeSolidPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.CompositeSolidPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TimeTopologyPrimitivePropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.TimeTopologyPrimitivePropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:StyleVariationType">
+      <class ref="net.opengis.gml.v_3_1_1.StyleVariationType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractReferenceSystemBaseType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractReferenceSystemBaseType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:EllipsoidBaseType">
+      <class ref="net.opengis.gml.v_3_1_1.EllipsoidBaseType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DynamicFeatureCollectionType">
+      <class ref="net.opengis.gml.v_3_1_1.DynamicFeatureCollectionType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GridLimitsType">
+      <class ref="net.opengis.gml.v_3_1_1.GridLimitsType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:RingPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.RingPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:VolumeType">
+      <class ref="net.opengis.gml.v_3_1_1.VolumeType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CountPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.CountPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:LengthType">
+      <class ref="net.opengis.gml.v_3_1_1.LengthType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:QuantityPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.QuantityPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TimeInstantPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.TimeInstantPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TemporalDatumBaseType">
+      <class ref="net.opengis.gml.v_3_1_1.TemporalDatumBaseType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:PrimeMeridianBaseType">
+      <class ref="net.opengis.gml.v_3_1_1.PrimeMeridianBaseType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:LabelType">
+      <class ref="net.opengis.gml.v_3_1_1.LabelType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TimeGeometricPrimitivePropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.TimeGeometricPrimitivePropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CompositeCurvePropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.CompositeCurvePropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ScaleType">
+      <class ref="net.opengis.gml.v_3_1_1.ScaleType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AngleType">
+      <class ref="net.opengis.gml.v_3_1_1.AngleType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:LineStringSegmentArrayPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.LineStringSegmentArrayPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TimeNodePropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.TimeNodePropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:MultiPolygonPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.MultiPolygonPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:MultiLineStringPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.MultiLineStringPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:LinearRingPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.LinearRingPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TimeOrdinalEraPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.TimeOrdinalEraPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:KnotPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.KnotPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TimeTopologyComplexPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.TimeTopologyComplexPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:RelatedTimeType">
+      <class ref="net.opengis.gml.v_3_1_1.RelatedTimeType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:BooleanPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.BooleanPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CompositeSurfacePropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.CompositeSurfacePropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:OperationParameterGroupBaseType">
+      <class ref="net.opengis.gml.v_3_1_1.OperationParameterGroupBaseType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GeometricPrimitivePropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.GeometricPrimitivePropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TimeCalendarEraPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.TimeCalendarEraPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ScalarValuePropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.ScalarValuePropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GridLengthType">
+      <class ref="net.opengis.gml.v_3_1_1.GridLengthType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:KnotType">
+      <class ref="net.opengis.gml.v_3_1_1.KnotType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:OperationParameterBaseType">
+      <class ref="net.opengis.gml.v_3_1_1.OperationParameterBaseType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TimeEdgePropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.TimeEdgePropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DynamicFeatureType">
+      <class ref="net.opengis.gml.v_3_1_1.DynamicFeatureType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CoordinateSystemAxisBaseType">
+      <class ref="net.opengis.gml.v_3_1_1.CoordinateSystemAxisBaseType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CodeListType">
+      <class ref="net.opengis.gml.v_3_1_1.CodeListType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:FormulaType">
+      <class ref="net.opengis.gml.v_3_1_1.FormulaType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SpeedType">
+      <class ref="net.opengis.gml.v_3_1_1.SpeedType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractCoordinateOperationBaseType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractCoordinateOperationBaseType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractCoordinateSystemBaseType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractCoordinateSystemBaseType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:BoundedFeatureType">
+      <class ref="net.opengis.gml.v_3_1_1.BoundedFeatureType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractDatumBaseType">
+      <class ref="net.opengis.gml.v_3_1_1.AbstractDatumBaseType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TimeCalendarPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.TimeCalendarPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TimePeriodPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.TimePeriodPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CategoryPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.CategoryPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:OperationMethodBaseType">
+      <class ref="net.opengis.gml.v_3_1_1.OperationMethodBaseType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TimeClockPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.TimeClockPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GridEnvelopeType">
+      <class ref="net.opengis.gml.v_3_1_1.GridEnvelopeType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GeometricComplexPropertyType">
+      <class ref="net.opengis.gml.v_3_1_1.GeometricComplexPropertyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AreaType">
+      <class ref="net.opengis.gml.v_3_1_1.AreaType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SequenceRuleType">
+      <class ref="net.opengis.gml.v_3_1_1.SequenceRuleType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TimeType">
+      <class ref="net.opengis.gml.v_3_1_1.TimeType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CompassPointEnumeration">
+      <typesafeEnumClass ref="net.opengis.gml.v_3_1_1.CompassPointEnumeration"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TimeIndeterminateValueType">
+      <typesafeEnumClass ref="net.opengis.gml.v_3_1_1.TimeIndeterminateValueType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SymbolTypeEnumeration">
+      <typesafeEnumClass ref="net.opengis.gml.v_3_1_1.SymbolTypeEnumeration"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SurfaceInterpolationType">
+      <typesafeEnumClass ref="net.opengis.gml.v_3_1_1.SurfaceInterpolationType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:KnotTypesType">
+      <typesafeEnumClass ref="net.opengis.gml.v_3_1_1.KnotTypesType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DrawingTypeType">
+      <typesafeEnumClass ref="net.opengis.gml.v_3_1_1.DrawingTypeType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SequenceRuleNames">
+      <typesafeEnumClass ref="net.opengis.gml.v_3_1_1.SequenceRuleNames"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:LineTypeType">
+      <typesafeEnumClass ref="net.opengis.gml.v_3_1_1.LineTypeType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SignType">
+      <typesafeEnumClass ref="net.opengis.gml.v_3_1_1.SignType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:FileValueModelType">
+      <typesafeEnumClass ref="net.opengis.gml.v_3_1_1.FileValueModelType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AesheticCriteriaType">
+      <typesafeEnumClass ref="net.opengis.gml.v_3_1_1.AesheticCriteriaType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GraphTypeType">
+      <typesafeEnumClass ref="net.opengis.gml.v_3_1_1.GraphTypeType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:IncrementOrder">
+      <typesafeEnumClass ref="net.opengis.gml.v_3_1_1.IncrementOrder"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CurveInterpolationType">
+      <typesafeEnumClass ref="net.opengis.gml.v_3_1_1.CurveInterpolationType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SuccessionType">
+      <typesafeEnumClass ref="net.opengis.gml.v_3_1_1.SuccessionType"/>
+    </bindings>
+    <bindings if-exists="true"  scd="~tns:QueryGrammarEnumeration">
+      <typesafeEnumClass ref="net.opengis.gml.v_3_1_1.QueryGrammarEnumeration"/>
+    </bindings>
+  </bindings>
+  <bindings if-exists="true" scd="x-schema::tns"  xmlns:tns="http://www.w3.org/2001/SMIL20/">
+    <schemaBindings map="false">
+      <package name="org.w3.smil.v_2_0"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="~tns:animateColorPrototype">
+      <class ref="org.w3.smil.v_2_0.AnimateColorPrototype"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:setPrototype">
+      <class ref="org.w3.smil.v_2_0.SetPrototype"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:animateMotionPrototype">
+      <class ref="org.w3.smil.v_2_0.AnimateMotionPrototype"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:animatePrototype">
+      <class ref="org.w3.smil.v_2_0.AnimatePrototype"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:syncBehaviorDefaultType">
+      <typesafeEnumClass ref="org.w3.smil.v_2_0.SyncBehaviorDefaultType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:syncBehaviorType">
+      <typesafeEnumClass ref="org.w3.smil.v_2_0.SyncBehaviorType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:fillTimingAttrsType">
+      <typesafeEnumClass ref="org.w3.smil.v_2_0.FillTimingAttrsType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:restartDefaultType">
+      <typesafeEnumClass ref="org.w3.smil.v_2_0.RestartDefaultType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:restartTimingType">
+      <typesafeEnumClass ref="org.w3.smil.v_2_0.RestartTimingType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:fillDefaultType">
+      <typesafeEnumClass ref="org.w3.smil.v_2_0.FillDefaultType"/>
+    </bindings>
+  </bindings>
+</bindings>
+

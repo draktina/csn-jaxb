@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings if-exists="true" version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.6 generiert 
+Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
+Generiert: 2013.01.31 um 12:16:01 AM CET 
+
+  -->
+  <bindings if-exists="true" scd="x-schema::tns" xmlns:tns="http://www.opengis.net/ows/1.1">
+    <schemaBindings map="false">
+      <package name="net.opengis.ows.v_1_1_0"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="~tns:DatasetDescriptionSummaryBaseType">
+      <class ref="net.opengis.ows.v_1_1_0.DatasetDescriptionSummaryBaseType"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:Operation">
+      <class ref="net.opengis.ows.v_1_1_0.Operation"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:DCP">
+      <class ref="net.opengis.ows.v_1_1_0.DCP"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:HTTP">
+      <class ref="net.opengis.ows.v_1_1_0.HTTP"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:RequestMethodType">
+      <class ref="net.opengis.ows.v_1_1_0.RequestMethodType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DomainType">
+      <class ref="net.opengis.ows.v_1_1_0.DomainType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:MetadataType">
+      <class ref="net.opengis.ows.v_1_1_0.MetadataType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DomainMetadataType">
+      <class ref="net.opengis.ows.v_1_1_0.DomainMetadataType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ValueType">
+      <class ref="net.opengis.ows.v_1_1_0.ValueType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ManifestType">
+      <class ref="net.opengis.ows.v_1_1_0.ManifestType"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:OperationsMetadata">
+      <class ref="net.opengis.ows.v_1_1_0.OperationsMetadata"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CodeType">
+      <class ref="net.opengis.ows.v_1_1_0.CodeType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:KeywordsType">
+      <class ref="net.opengis.ows.v_1_1_0.KeywordsType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ResponsiblePartyType">
+      <class ref="net.opengis.ows.v_1_1_0.ResponsiblePartyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:AllowedValues">
+      <class ref="net.opengis.ows.v_1_1_0.AllowedValues"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:RangeType">
+      <class ref="net.opengis.ows.v_1_1_0.RangeType"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ExceptionReport">
+      <class ref="net.opengis.ows.v_1_1_0.ExceptionReport"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ExceptionType">
+      <class ref="net.opengis.ows.v_1_1_0.ExceptionType"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:AnyValue">
+      <class ref="net.opengis.ows.v_1_1_0.AnyValue"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:BoundingBoxType">
+      <class ref="net.opengis.ows.v_1_1_0.BoundingBoxType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ContactType">
+      <class ref="net.opengis.ows.v_1_1_0.ContactType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ReferenceType">
+      <class ref="net.opengis.ows.v_1_1_0.ReferenceType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AbstractReferenceBaseType">
+      <class ref="net.opengis.ows.v_1_1_0.AbstractReferenceBaseType"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ServiceProvider">
+      <class ref="net.opengis.ows.v_1_1_0.ServiceProvider"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:OnlineResourceType">
+      <class ref="net.opengis.ows.v_1_1_0.OnlineResourceType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ResponsiblePartySubsetType">
+      <class ref="net.opengis.ows.v_1_1_0.ResponsiblePartySubsetType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GetCapabilitiesType">
+      <class ref="net.opengis.ows.v_1_1_0.GetCapabilitiesType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ReferenceGroupType">
+      <class ref="net.opengis.ows.v_1_1_0.ReferenceGroupType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ServiceReferenceType">
+      <class ref="net.opengis.ows.v_1_1_0.ServiceReferenceType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GetResourceByIdType">
+      <class ref="net.opengis.ows.v_1_1_0.GetResourceByIdType"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ServiceIdentification">
+      <class ref="net.opengis.ows.v_1_1_0.ServiceIdentification"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:DescriptionType">
+      <class ref="net.opengis.ows.v_1_1_0.DescriptionType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:LanguageStringType">
+      <class ref="net.opengis.ows.v_1_1_0.LanguageStringType"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ValuesReference">
+      <class ref="net.opengis.ows.v_1_1_0.ValuesReference"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:NoValues">
+      <class ref="net.opengis.ows.v_1_1_0.NoValues"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:WGS84BoundingBoxType">
+      <class ref="net.opengis.ows.v_1_1_0.WGS84BoundingBoxType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AcceptFormatsType">
+      <class ref="net.opengis.ows.v_1_1_0.AcceptFormatsType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:UnNamedDomainType">
+      <class ref="net.opengis.ows.v_1_1_0.UnNamedDomainType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SectionsType">
+      <class ref="net.opengis.ows.v_1_1_0.SectionsType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ContentsBaseType">
+      <class ref="net.opengis.ows.v_1_1_0.ContentsBaseType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TelephoneType">
+      <class ref="net.opengis.ows.v_1_1_0.TelephoneType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:BasicIdentificationType">
+      <class ref="net.opengis.ows.v_1_1_0.BasicIdentificationType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:IdentificationType">
+      <class ref="net.opengis.ows.v_1_1_0.IdentificationType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AcceptVersionsType">
+      <class ref="net.opengis.ows.v_1_1_0.AcceptVersionsType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AddressType">
+      <class ref="net.opengis.ows.v_1_1_0.AddressType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CapabilitiesBaseType">
+      <class ref="net.opengis.ows.v_1_1_0.CapabilitiesBaseType"/>
+    </bindings>
+  </bindings>
+</bindings>
+
