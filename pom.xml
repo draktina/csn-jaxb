@@ -19,7 +19,6 @@
 		<module>eop</module>
 	</modules>
 
-
 	<dependencies>
 		<dependency>
 			<groupId>org.jvnet.jaxb2_commons</groupId>
