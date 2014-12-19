@@ -1,6 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <modules>
+        <module>../activity-0_9_5</module>
+        <module>../activity-1_3_4</module>
+    </modules>
     <parent>
         <groupId>org.cwatch</groupId>
         <artifactId>csn-jaxb</artifactId>
@@ -35,37 +40,38 @@
         </dependency>
     </dependencies>
 
+
     <build>
+    <pluginManagement>
         <plugins>
             <plugin>
                 <groupId>org.jvnet.jaxb2.maven2</groupId>
                 <artifactId>maven-jaxb2-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>generate</goal>
-                        </goals>
-                        <configuration>
-                            <schemaIncludes>
-                                <include>schemas/csndc/1_3_4/csndc_activity.xsd</include>
-                            </schemaIncludes>
-                            <bindingIncludes>
-                                <include>binding.xjb</include>
-                            </bindingIncludes>
-                            <episodes>
-                                <episode>
-                                    <groupId>org.cwatch</groupId>
-                                    <artifactId>csn-jaxb-gml</artifactId>
-                                </episode>
-                                <episode>
-                                    <groupId>org.cwatch</groupId>
-                                    <artifactId>csn-jaxb-ows</artifactId>
-                                </episode>
-                            </episodes>
-                        </configuration>
-                    </execution>
-                </executions>
+                <version>0.11.0</version>
+                <configuration>
+                    <bindingIncludes>
+                        <include>binding.xjb</include>
+                    </bindingIncludes>
+                    <episodes>
+                        <episode>
+                            <groupId>org.cwatch</groupId>
+                            <artifactId>csn-jaxb-gml</artifactId>
+                        </episode>
+                        <episode>
+                            <groupId>org.cwatch</groupId>
+                            <artifactId>csn-jaxb-ows</artifactId>
+                        </episode>
+                    </episodes>
+                    <plugins>
+                        <plugin>
+                            <groupId>org.jvnet.jaxb2_commons</groupId>
+                            <artifactId>jaxb2-basics</artifactId>
+                            <version>0.9.0</version>
+                        </plugin>
+                    </plugins>
+                </configuration>
             </plugin>
         </plugins>
+    </pluginManagement>
     </build>
 </project>

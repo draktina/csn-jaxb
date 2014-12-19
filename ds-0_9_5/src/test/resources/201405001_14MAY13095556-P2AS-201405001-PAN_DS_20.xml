@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<csn:Ship
+        xmlns:csn="http://www.emsa.europa.eu/csndc"
+        xmlns:gml="http://www.opengis.net/gml"
+        xmlns:ows="http://www.opengis.net/ows/1.1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.emsa.europa.eu/csndc http://www.emsa.europa.eu/schemas/csndc/Features/csndc_ds.xsd">
+    <csn:id>201405001_14MAY13095556-P2AS-201405001-PAN_DS_20</csn:id>
+    <csn:includeInReport>false</csn:includeInReport>
+    <gml:pos>35.224021 23.677277</gml:pos>
+    <csn:timeStamp>2014-05-13T09:55:55.000000Z</csn:timeStamp>
+    <csn:heading>324</csn:heading>
+    <!--csn:speed>0.0</csn:speed-->
+    <csn:length>10</csn:length>
+    <csn:width>3</csn:width>
+    <csn:type>Fishing vessel</csn:type>
+    <csn:confidenceLevel>1</csn:confidenceLevel>
+    <csn:imageIdentifier type="VIS-IR">14MAY13095556-S2AS-201405001-RGB-PSH_EPSG4326.tif</csn:imageIdentifier>
+    <csn:shipThumbnail>14MAY13095556-P2AS-201405001-PAN_DS_20.tif</csn:shipThumbnail>
+</csn:Ship>

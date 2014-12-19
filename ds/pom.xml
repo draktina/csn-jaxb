@@ -1,7 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<parent>
+    <packaging>pom</packaging>
+    <modules>
+        <module>../ds-1_3_4</module>
+        <module>../ds-0_9_5</module>
+    </modules>
+    <parent>
 		<groupId>org.cwatch</groupId>
 		<artifactId>csn-jaxb</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
@@ -35,7 +40,7 @@
         </dependency>
     </dependencies>
 
-    <build>
+<!--    <build>
 		<plugins>
 			<plugin>
 				<groupId>org.jvnet.jaxb2.maven2</groupId>
@@ -68,5 +73,38 @@
 				</executions>
 			</plugin>
 		</plugins>
-	</build>
+	</build>-->
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.jvnet.jaxb2.maven2</groupId>
+                    <artifactId>maven-jaxb2-plugin</artifactId>
+                    <version>0.11.0</version>
+                    <configuration>
+                        <bindingIncludes>
+                            <include>binding.xjb</include>
+                        </bindingIncludes>
+                        <episodes>
+                            <episode>
+                                <groupId>org.cwatch</groupId>
+                                <artifactId>csn-jaxb-gml</artifactId>
+                            </episode>
+                            <episode>
+                                <groupId>org.cwatch</groupId>
+                                <artifactId>csn-jaxb-ows</artifactId>
+                            </episode>
+                        </episodes>
+                        <plugins>
+                            <plugin>
+                                <groupId>org.jvnet.jaxb2_commons</groupId>
+                                <artifactId>jaxb2-basics</artifactId>
+                                <version>0.9.0</version>
+                            </plugin>
+                        </plugins>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 </project>

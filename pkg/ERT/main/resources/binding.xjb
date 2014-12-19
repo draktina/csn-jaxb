@@ -1,0 +1,13 @@
+<jaxb:bindings version="1.0" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc"
+	xmlns:inheritance="http://jaxb2-commons.dev.java.net/basic/inheritance"
+	jaxb:extensionBindingPrefixes="xjc inheritance">
+
+	<jaxb:bindings schemaLocation="schemas/csndc/1_3_4/csndc_pkg.xsd"
+		node="/xs:schema">
+		<jaxb:schemaBindings>
+			<jaxb:package name="eu.europa.emsa.csndc.pkg" />
+		</jaxb:schemaBindings>
+	</jaxb:bindings>
+</jaxb:bindings>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>csn-jaxb-activity</artifactId>
+        <groupId>org.cwatch</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../activity/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>csn-jaxb-activity-1_3_4</artifactId>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.jvnet.jaxb2.maven2</groupId>
+                <artifactId>maven-jaxb2-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                            <schemaIncludes>
+                                <include>schemas/csndc/1_3_4/csndc_activity.xsd</include>
+                            </schemaIncludes>
+                           <!-- <bindingIncludes>
+                                <include>binding.xjb</include>
+                            </bindingIncludes>-->
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
